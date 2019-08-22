@@ -1,0 +1,158 @@
+@charset "utf-8";
+html {
+	overflow-x: hidden;
+}
+
+.checkbox-inline, .radio-inline {
+	padding-left: 30px;
+	padding-top: 0px !important;
+	margin-left: 0px !important;
+}
+
+.col-sm-9 {
+	width: 100%;
+}
+
+.help-block {
+	color: #a94442 !important;
+}
+
+.kv-file-content img {
+	width: 100px !important;
+	height: 130px !important;
+}
+
+#buttons {
+	text-align: center;
+}
+
+.thright {
+	background: #F7F7F7;
+}
+
+.tr_title {
+	height: 40px;
+	font-weight: bold;
+	text-align: center !important;
+	background: #fff !important;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.th_1 {
+	width: 20%;
+	font-size: 16px !important;
+	padding-right:10px !important;
+}
+
+.td_1 {
+	width: 80%;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+.th_2 {
+	width: 20%;
+	font-size: 16px !important;
+	padding-right:10px !important;
+}
+
+.td_2 {
+	width: 30%;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+.th_3 {
+	width: 10%;
+	color:#666;
+	padding-right:10px !important;
+}
+
+.td_3 {
+	width: 23%;
+	padding-left:10px !important;
+	padding-right:10px !important;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.num_txt {
+	display: inline-block;
+	width: 30%;
+}
+
+.select_3_1 {
+	display: inline-block;
+	width: 30%;
+}
+
+.select_3 {
+	display: inline-block;
+	width: 22%;
+}
+
+.lot_p_div p {
+	display: inline-block;
+	margin-right: 10px !important;
+}
+
+label {
+	max-width: inherit;
+}
+
+.switch_p {
+	display: inline-block;
+	width: 25%;
+}
+
+.num_p {
+	display: inline-block;
+	width: 30%;
+}
+
+p {
+	margin: 0 !important;
+}
+th{
+ 	font-weight:normal;
+ 	font-size:16px !important;
+ }
+.form-control-static{
+	font-size:16px !important;
+}
+
+@media only screen and (max-width:1600px){
+	.form-control-static{
+	font-size:14px !important;
+	min-height:24px;
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+	.thright{
+	font-size:14px !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	}
+ 	.th-inner{
+ 	font-size:14px !important;
+ 	}
+}
+
+
+@media only screen and (max-width:1280px){
+	.form-control-static{
+	min-height:18px;
+	padding-top:2px;
+	padding-bottom:2px;
+	font-size:13px !important;
+	}
+	.thright{
+	font-size:13px !important;
+	}
+	.th-inner{
+ 	font-size:13px !important;
+ 	}
+}

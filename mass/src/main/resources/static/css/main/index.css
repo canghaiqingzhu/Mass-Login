@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  outline: 0 !important
+}
+
+img {
+  display: block;
+  border-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+.clearfix {
+  clear: both;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #eaedf1;
+}
+
+.removepadding {
+  padding: 0;
+}
+
+.container-fluid {
+  padding-top: 10px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 1px 1px 1px #c9c9c9;
+  margin-bottom: 18px;
+}
+
+.logo .logotitle {
+  font-size: 28px;
+  line-height: 60px;
+  color: #514d76;
+}
+
+.logo h4 {
+  margin-top: 18px;
+  color: #999;
+}
+
+.logo .icons {
+  margin-top: 4px;
+}
+
+.logo .icons a:hover {
+  color: #514d76;
+  text-decoration: none;
+}
+
+.logo .time {
+  margin-top: 20px;
+  color: #7576B5;
+  padding: 0;
+}
+
+.time .date {
+  font-size: 20px;
+  padding: 0;
+}
+
+.time .seconds {
+  font-size: 16px;
+  padding: 0;
+  padding-top: 4px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.warning {
+/*   height: 475px;  */
+  overflow: auto;
+  padding-top: 10px;
+  border-left: 1px solid #dddddd;
+}
+
+.warning_with_list {
+  overflow: auto;
+  padding-top: 10px;
+  border-left: 1px solid #dddddd;
+}
+
+.level {
+  height: 460px;
+  padding-top: 10px;
+}
+
+.chart {
+  height: 700px;
+}
+
+.work {
+  height: 380px;
+}
+
+.mission {
+  height: 250px;
+  overflow: hidden;
+}
+
+.messages {
+  height: 658px;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+.messenger {
+  height: 290px;
+}
+
+.number {
+  height: 200px;
+  padding-top: 14px;
+}
+
+.smalltitle {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 0;
+  padding-top: 15%
+}
+
+.totalnum {
+  background-color: #9193E0;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+.totalnum .col-md-6 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.totalnum .numb {
+  color: #fff;
+  font-size: 26px;
+  line-height: 60px;
+}
+
+.stripe {
+  background-color: #F5F5F5;
+}
+
+.prom {
+  border-left: 2px solid #fff;
+  margin-bottom: 2px;
+}
+
+.prom:hover {
+  color: #4D4D4D;
+  cursor: pointer;
+  border-left: 2px solid #C48CCC;
+}
+
+.prom .col-md-6 {
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  color: #514d76;
+}
+
+.personnum {
+  margin-top: 10px;
+}
+
+.prom .numb {
+  font-size: 22px;
+  color: #C48CCC;
+  line-height: 30px;
+}
+
+.keywords {
+  color: #0068b7;
+  text-decoration: underline;
+}
+
+.refreshimg {
+  height: 20px;
+  margin-top: 8px;
+  background: url(images/refresh.png);
+  background-repeat: no-repeat;
+}
+
+.refreshimg:hover {
+  background: url(images/refresh2.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.messages .list-unstyled li {
+  padding: 6px 0;
+  border-bottom: 1px dotted #eee;
+}
+
+.messages .list-unstyled li:hover {
+  color: #0068b7;
+  cursor: pointer;
+}
+
+.dates {
+  color: #888;
+  font-size: 12px;
+  text-align: right;
+}
+
+.anniu {
+  padding: 10px 0;
+}
+
+.btnstyle {
+  background-color: rgba(255, 255, 255, 0.00);
+  border: 1px solid #999999;
+  border-radius: 20px;
+  color: #999999;
+  padding: 2px 12px;
+}
+
+.btnstyle:hover {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  color: #2D2D2D;
+  cursor: pointer;
+}
+
+.currentbtn, .current2 {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  color: #2D2D2D;
+}
+
+.tab2 button {
+  background-color: rgba(255, 255, 255, 0.00);
+  border: 1px solid #999999;
+  border-radius: 20px;
+  color: #999999;
+  padding: 2px 12px;
+}
+
+.tab2 button:hover {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  color: #2D2D2D;
+  cursor: pointer;
+}
+
+.tab2 .current2 {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  color: #2D2D2D;
+}
+
+.tab2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tab3 button {
+  background-color: rgba(255, 255, 255, 0.00);
+  border: 1px solid #999999;
+  border-radius: 20px;
+  color: #999999;
+  padding: 2px 12px;
+}
+
+.tab3 button:hover {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  color: #2D2D2D;
+  cursor: pointer;
+}
+
+.tab3 .current3 {
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  color: #2D2D2D;
+}
+
+.tab3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.map {
+  position: relative;
+}
+
+.messages .mapimg {
+  height: 344px;
+}
+
+.messenger .mapimg {
+  height: 180px;
+}
+
+.map .mapbtn {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+
+.mapbtn img {
+  margin-top: 10px;
+}
+
+.task ul li {
+  color: #555;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 8px;
+}
+
+.task ul {
+  margin-top: 0;
+}
+
+.task ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.more {
+  color: #0068b7;
+}
+
+.chart .anniu {
+  margin-top: 8px;
+}
+
+.card h4 {
+  height: 30px;
+  line-height: 30px;
+}
+
+.minitile {
+  padding: 0;
+}
+
+.numb3 {
+  line-height: 80px;
+}
+
+.chartimg {
+  height: 200px;
+}
+
+.echartimg {
+  height: 350px;
+  padding-top: 20px;
+}
+
+.area {
+  color: #999;
+}
+
+.iconbg {
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.iconbg img {
+  height: 80px;
+}
+
+.icontop {
+  padding-top: 20px;
+}
+
+.guankongimg {
+  height: 160px;
+}
+
+.floaticon {
+  width: 80px;
+  height: 500px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.floaticon-m {
+  background-color: rgba(191, 190, 231, 0.2);
+  margin-bottom: 4px;
+}
+
+@media only screen and (max-width:1500px) {
+  .time .date {
+    font-size: 16px;
+    padding-top: 2px;
+  }
+  .time .seconds {
+    font-size: 14px;
+  }
+  .logo .logotitle {
+    font-size: 24px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width:1300px) {
+  .logo .logotitle {
+    font-size: 22px;
+    line-height: 60px;
+  }
+}
+
+.BMap_cpyCtrl, .BMap_geolocationContainer {
+  display: none !important;
+}
+
+.BMapLabel {
+  max-width: none !important;
+}

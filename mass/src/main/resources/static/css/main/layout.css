@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Î¢ÈíÑÅºÚ";
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.header {
+  background: #1854A5;
+  height: 46px;
+  z-index: 1;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+}
+
+.logo img {
+  margin: 5px 0;
+}
+
+.header span {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 60px;
+}
+
+.icons {
+  float: right;
+  display: inline;
+  height: 46px;
+}
+
+.icon1, .icon2, .icon3, .icon4, .menuTopShow, .menuTopHide {
+  height: 26px;
+  width: 26px;
+  float: left;
+  margin: 10px 20px 10px 0;
+}
+
+.menuTopHide {
+  background: url(../../images/up.png);
+}
+
+.menuTopHide:hover {
+  background: url(../../images/up-hover.png);
+  cursor: pointer;
+}
+
+.menuTopShow {
+  background: url(../../images/down.png);
+}
+
+.menuTopShow:hover {
+  background: url(../../images/down-hover.png);
+  cursor: pointer;
+}
+
+.icon1 {
+  background: url(../../images/help.png);
+}
+
+.icon1:hover {
+  background: url(../../images/help-hover.png);
+  cursor: pointer;
+}
+
+.icon2 {
+  background: url(../../images/notice.png);
+}
+
+.icon2:hover {
+  background: url(../../images/notice-hover.png);
+  cursor: pointer;
+}
+
+.icon3 {
+  background: url(../../images/password.png);
+}
+
+.icon3:hover {
+  background: url(../../images/password-hover.png);
+  cursor: pointer;
+}
+
+.icon4 {
+  background: url(../../images/close.png);
+}
+
+.icon4:hover {
+  background: url(../../images/close-hover.png);
+  cursor: pointer;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#main_body_info_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 202px;
+  z-index: 0;
+}
+
+.top_menu {
+  z-index: 1;
+  margin: 0;
+  border-width: 4px;
+  border-color: #1854A5;
+  border-style: solid;
+  height: 100px;
+}
+
+.top_menu .btn-group {
+  z-index: 1;
+}
+
+.navbar-default {
+  z-index: 1;
+  margin: 0;
+}
+
+.userWorkInfo {
+  position: absolute;
+  color: white;
+  top: 10px;
+  right: 230px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav {
+  margin-top: 5px;
+}
+
+.dropdown-toggle {
+  font-size: 16px;
+  color: #337ab7 !important;
+}
+
+.active .dropdown-toggle {
+  border-radius: 8px 8px 0 0;
+  background-color: #337ab7 !important;
+  color: white !important;
+}
+
+.dropdown-menu {
+  border: solid 1px #337ab7;
+  border-radius: 0 8px 8px 8px !important;
+}

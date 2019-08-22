@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+	margin:0; 
+	padding:0; 
+	font-size:14px; 
+	font-family:"微软雅黑";
+}
+
+body{
+	background-color:#eaedf1;
+}
+
+.container-fluid{
+	padding-top:20px;
+}
+
+.column{
+	padding:0 10px;
+}
+
+.card{
+	background-color:#fff;
+	margin-bottom:18px;
+	height:300px;
+	padding:0 10px;
+}
+
+.card:hover{
+	cursor:pointer;
+	box-shadow:0 4px 8px 0 rgba(178,188,232,0.1),0 6px 20px 0 rgba(178,188,232,0.2);
+}
+
+.title{
+	font-size:18px;
+	color:#414697;
+	line-height:40px;
+	font-weight:bold;
+}
+
+.number{
+	font-size:24px;
+	color:#CDA04A;
+}
+
+.chart{
+	margin-top:20px;
+}
+
+.table-height{
+	height:242px;
+	margin-top:10px;
+	overflow:auto;
+}
+
+table{
+	table-layout:fixed;
+}
+
+table th,td{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+@media only screen and (max-width:1500px){
+	.title{
+	font-size:16px;
+	}
+	
+	.number{
+	font-size:22px;
+	}
+}
+
+@media only screen and (max-width:1400px){
+	.title{
+	font-size:14px;
+	}
+	
+	.number{
+	font-size:20px;
+	}
+}

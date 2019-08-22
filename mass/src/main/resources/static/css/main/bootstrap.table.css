@@ -1,0 +1,77 @@
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	vertical-align:middle !important;
+	padding: 4px;
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #a94442 !important;
+}
+
+.main_body form {
+	padding: 3px !important;
+}
+
+.col-sm-9{
+	padding-left: 0px !important;
+}
+
+.thright{
+	text-align: right;
+	background-color: #eee;
+}
+
+.requiredFile {
+    color: #FF5722;
+    font-size: 150%;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.main_pic_upload_div {
+    text-align: center;
+    width: 100%;
+    height: 244px;
+    position: relative;
+}
+
+.main_pic_upload_pic_div {
+    width: 100%;
+    height: 100%;
+}
+
+.main_pic_upload_btn_div {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -9999;
+}
+
+.main_pic_upload_btn_div input {
+    width: 100px;
+    height: 130px;
+    display: none;
+    margin-left: 42px;
+}
+
+.file-input {
+	 border-collapse:separate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

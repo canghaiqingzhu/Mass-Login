@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Wschat
+  sleuth:
+    sampler:
+      percentage: 0.3
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+server:
+  ip: 192.168.1.147
+  port: 2525
+  jsp-servlet:
+    init-parameters:
+      development: true
+wswrtc:
+  ip: 192.168.1.147
